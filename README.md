@@ -39,10 +39,16 @@ GaN 모터 드라이버를 직접 설계해서 PMSM(영구자석 동기 전동�
 
 ## AI 활용
 
-학습 과정에서 Claude(AI)를 학습 도우미로 활용 (0단계 실습 틀·모델·테스트 코드 작성, 문서 정리)
+전 단계에서 Claude(AI)를 학습·디버깅 도우미로 활용, 도움받은 내용은 단계별 학습 기록에 그대로 기록
 
-- 직접 한 부분과 도움받은 부분은 [0단계 README](stage0-simulation/README.md)에 구분해 기록
-- 구현, 튜닝, 하드웨어 작업과 그 결과는 직접 수행
+| 단계 | 기록 위치 |
+|---|---|
+| 0단계 | [stage0-simulation/README.md](stage0-simulation/README.md) (역할 구분표 + 학습 기록) |
+| 1·2단계 | [firmware/README.md](firmware/README.md) 학습 기록 |
+| 3단계 | [hardware/README.md](hardware/README.md) 학습 기록 |
+
+- Claude가 작성한 코드는 파일 안에 `[제공됨]` 또는 주석으로 표시
+- 설계 판단, 구현, 튜닝, 측정과 그 결과는 직접 수행
 
 ## 문서
 
