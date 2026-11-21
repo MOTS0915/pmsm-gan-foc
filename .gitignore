@@ -1,0 +1,23 @@
+# STM32CubeIDE / build
+Debug/
+Release/
+build/
+*.elf
+*.bin
+*.hex
+*.map
+.metadata/
+
+# PlatformIO
+.pio/
+.vscode/
+
+# KiCad
+*-backups/
+*.kicad_prl
+fp-info-cache
+*.lck
+
+# OS
+.DS_Store
+Thumbs.db
