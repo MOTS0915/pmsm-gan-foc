@@ -25,8 +25,9 @@ GaN 모터 드라이버를 직접 설계해서 PMSM(영구자석 동기 전동�
 ## 진행 상황
 
 - [x] 개념 정리 및 부품 선정
+- [ ] 모터 이론 학습 ([체크리스트](study/checklist.md))
 - [ ] 0단계: Python FOC 시뮬레이션 (TODO 1~7)
-- [ ] 1단계 부품 구매
+- [x] 1단계 부품 구매
 - [ ] 마일스톤 1: 개루프(V/f) 모터 구동
 - [ ] 마일스톤 2: AS5048A SPI 읽기, 전기각 정렬
 - [ ] 마일스톤 3: 전류 오프셋 보정, 3상 전류 합 확인
@@ -43,6 +44,7 @@ GaN 모터 드라이버를 직접 설계해서 PMSM(영구자석 동기 전동�
 
 | 단계 | 기록 위치 |
 |---|---|
+| 이론 학습 | [study/README.md](study/README.md) (커리큘럼 초안, 공책 정리) |
 | 0단계 | [stage0-simulation/README.md](stage0-simulation/README.md) (역할 구분표 + 학습 기록) |
 | 1·2단계 | [firmware/README.md](firmware/README.md) 학습 기록 |
 | 3단계 | [hardware/README.md](hardware/README.md) 학습 기록 |
@@ -59,12 +61,14 @@ GaN 모터 드라이버를 직접 설계해서 PMSM(영구자석 동기 전동�
 | [03. 하드웨어 선정](docs/03-hardware-selection.md) | 모터·드라이버·MCU 선정 이유, 측정 장비 판단 |
 | [04. 부품 리스트(BOM)](docs/04-bom.md) | 1단계 구매 품목, 장비, GaN 보드 계획 |
 | [05. 로드맵과 안전 수칙](docs/05-roadmap.md) | 마일스톤, 학습 항목, 안전 수칙 |
+| [모터 이론 학습 체크리스트](study/checklist.md) | 전동기 기초부터 GaN 드라이버까지 64개 학습 항목 |
 
 ## 레포 구성
 
 ```
 .
 ├── docs/              설계 메모와 정리 문서
+├── study/             모터 이론 학습 체크리스트와 공책 정리 노트
 ├── stage0-simulation/ Python FOC 시뮬레이션 실습 (0단계)
 ├── firmware/          STM32G474 펌웨어 (진행 예정)
 └── hardware/          GaN 인버터 보드 KiCad 프로젝트 (진행 예정)
