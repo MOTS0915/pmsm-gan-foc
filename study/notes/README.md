@@ -6,7 +6,7 @@
 
 | 모듈 | 파일 |
 |---|---|
-| A. 전자기·자기회로 | `a-electromagnetics.md` |
+| A. 전자기·자기회로 | [`a-electromagnetics.md`](a-electromagnetics.md) |
 | B. 3상 교류 | `b-three-phase.md` |
 | C. 전동기 기초 | `c-motor-basics.md` |
 | D. 전동기 종류와 구조 | `d-motor-types.md` |
@@ -18,7 +18,7 @@
 | J. 실측·파라미터 식별 | `j-measurement.md` |
 | K. 보호·안전 | `k-protection.md` |
 
-공책 원본 사진은 `images/` 폴더에 `모듈-날짜-번호.jpg` 형식으로 저장
+공책 원본(스캔 PDF, 사진)은 `originals/` 폴더에 `모듈-날짜-번호` 형식으로 저장
 
 ## 노트 형식
 
@@ -42,5 +42,5 @@
 - 공부하며 막혔던 부분과 이해한 내용
 
 ## 원본
-- 공책 사진 링크
+- 공책 원본 링크
 ```
